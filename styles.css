@@ -5,11 +5,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 .container {
-  max-width: 1000px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 .column {
-  min-width: 300px;
+  min-width: 550px;
   display: inline-block;
   vertical-align: top;
 }
