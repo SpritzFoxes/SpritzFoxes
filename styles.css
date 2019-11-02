@@ -51,6 +51,7 @@ body {
 }
 .post-role,
 .post-position {
+  display: inline;
 }
 p {
   line-height: 1;
