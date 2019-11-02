@@ -32,6 +32,7 @@ body {
 }
 .post-author span {
   margin-left: 16px;
+  font-size: 25px;
 }
 .post-date {
   color :#D2D2D2;
@@ -52,7 +53,6 @@ body {
 }
 .post-role,
 .post-position {
-  display: inline;
 }
 p {
   line-height: 1.5;
