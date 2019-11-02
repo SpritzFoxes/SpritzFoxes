@@ -37,8 +37,6 @@ body {
 .post-date {
   color :#D2D2D2;
   font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .post-container:nth-child(even) {
