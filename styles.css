@@ -66,6 +66,22 @@ a {
 a:hover {
   color: #F6A623;
 }
+.column p {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.column h4 {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.logo-small {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+        /* width: 7%; ?? */
+    padding: 35px 90px;
+    position: absolute;
+  }
 
 #header {
   background-color: #1abc9c;
