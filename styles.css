@@ -75,6 +75,11 @@ a:hover {
     padding: 35px 90px;
     position: absolute;
   }
+.social-logo {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
 
 #header {
   background-color: #1abc9c;
