@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TRAINING</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="header">
+    <div class="trapezium-right"></div>
+    <div class="trapezium-left"></div>
+   <div class="container">
+     <a id="header-title" href="index.html">SPRITZ FOXES PADOVA QUIDDITCH</a>
+     <img class="logo-small" src="logo-foxes-anello.png">
+     <ul id="header-nav">
+       <li><a href="team">TEAM</a></li>
+       <li><a href="rules">RULES</a></li>
+       <li><a href="training">TRAINING</a></li>
+       <li><a href="gallery">GALLERY</a></li>
+     </ul>
+     </div>
+   </div>
+   <div id="content">
+    <div class="container">
+      <div class="about">
+        <div class="about-author">
+          <img src="logo-foxes.png">
+        </div>
+        <h1 class="about-title">Spritz Foxes</h3>
+        <div class="about-content">
+          <p>Official Padova quidditch losers team.</p>
+          <p>Come join us!</p>
+         </div>
+      </div>
+     </div>
+    </div>
+   <div id="footer">
+    <div class="container">
+      <div class="column">
+       <h4>SOCIAL MEDIA</h4>
+        <p>
+          <img class="social-logo" src="facebook-logo.png">
+          <a href="https://www.facebook.com/spritz.foxes/" target="_blank">Facebook</a>
+          <br><br>
+          <img class="social-logo" src="instagram-logo.png">
+          <a href="https://www.instagram.com/spritz.foxes/?hl=en" target="_blank">Instagram</a>
+        </p>
+       </div>
+      <div class="column">
+        <h4>CONTACTS</h4>
+        <p>Domenico: 33123231414</p>
+       </div>
+     </div>
+    </div>
+ </body>
+</html>
