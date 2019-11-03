@@ -38,8 +38,7 @@ body {
 .about {
   text-align: center;
 }
-.post-author img,
-.about-author img {
+.post-author img {
   border-radius: 50%;
 }
 .post-role,
