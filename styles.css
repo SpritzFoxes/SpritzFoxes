@@ -73,8 +73,7 @@ a:hover {
     height: 92px;
     vertical-align: middle;
     position: relative;
-    left: 50%;
-    transform: translate(-500%);
+    left: 10%;
   }
 .social-logo {
   width: 20px;
