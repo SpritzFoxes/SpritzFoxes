@@ -68,17 +68,34 @@ a:hover {
 }
 .logo-small {
     display: inline-block;
-    width: 80px;
-    height: 92px;
+    width: 100px;
+    height: 131px;
     vertical-align: middle;
-    position: relative;
-    left: 10%;
+    position: absolute;
+    left: 46.5%;
+    trasnform: translate(0%, 14.5%);
   }
 .social-logo {
   width: 20px;
   height: 20px;
   vertical-align: middle;
 }
+.trapezium-right {
+    vertical-align: middle;
+    border-bottom: 150px solid red;
+    border-right: 550px solid transparent;
+    height: 0;
+    width: 150px;
+    position: absolute;
+}
+.trapezium-left {
+    vertical-align: middle;
+    border-bottom: 150px solid #0000FF;
+    border-left: 550px solid transparent;
+    height: 0;
+    width: 150px;
+    position: absolute;
+    margin-left: 51.4%;
 
 #header {
   background-color: #1abc9c;
@@ -89,7 +106,8 @@ a:hover {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.1em
+  letter-spacing: 0.1em;
+  z-index: 10;
 }
 #header a:hover {
   color: #222;
@@ -99,11 +117,14 @@ a:hover {
   float: left;
   font-size: 20px;
   font-weight: bold;
+  z-index: 9;
+  position: relative;
 }
 #header-nav {
   display: block;
   float: right;
   margin-top: 0;
+  z-index: 9;
 }
 #header-nav li {
   display: inline;
