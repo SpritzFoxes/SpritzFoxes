@@ -68,12 +68,13 @@ a:hover {
   font-size: 20px;
 }
 .logo-small {
+    display: inline-block;
     width: 80px;
     height: 80px;
     vertical-align: middle;
-        /* width: 7%; ?? */
-    padding: 35px 90px;
-    position: absolute;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
   }
 .social-logo {
   width: 20px;
