@@ -72,7 +72,7 @@ a:hover {
     width: 80px;
     height: 80px;
     vertical-align: middle;
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
   }
