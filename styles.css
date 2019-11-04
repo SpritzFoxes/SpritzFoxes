@@ -103,7 +103,8 @@ a:hover {
     height: 0;
     width: 150px;
     position: absolute;
-    transform: translate(105.7%);
+    left: 50%;
+    transform: translate(2.8%);
 }
 #header {
   background-color: #1abc9c;
