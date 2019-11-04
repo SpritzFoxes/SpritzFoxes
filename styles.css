@@ -74,13 +74,13 @@ a:hover {
   font-size: 20px;
 }
 .logo-small {
+    position: absolute;
     display: inline-block;
+    left: 46.5%; 
     width: 100px;
     height: 131px;
     vertical-align: middle;
-    position: absolute;
-    left: 46.5%;
-    transform: translate(0%, 14.5%);
+    top: 2.4%;
   }
 .social-logo {
   width: 20px;
@@ -88,7 +88,7 @@ a:hover {
   vertical-align: middle;
   padding-bottom: 4.7px;
 }
-.trapezium-right {
+.trapezium-left {
     vertical-align: middle;
     border-bottom: 150px solid red;
     border-right: 550px solid transparent;
@@ -96,15 +96,14 @@ a:hover {
     width: 150px;
     position: absolute;
 }
-.trapezium-left {
+.trapezium-right {
     vertical-align: middle;
     border-bottom: 150px solid #0000FF;
     border-left: 550px solid transparent;
     height: 0;
     width: 150px;
     position: absolute;
-    left: 50%;
-    transform: translate(2.8%);
+    left: 52%;
 }
 #header {
   background-color: #1abc9c;
