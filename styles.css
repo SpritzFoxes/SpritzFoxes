@@ -105,6 +105,21 @@ a:hover {
     position: absolute;
     right: 0%;
 }
+
+.map-container {
+  width: 13%;
+  margin-left: 1%;
+  display: inline-block;
+}
+.calendar-container {
+  width: 96%;
+  margin: 1.6rem auto;
+  max-width: 500px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  margin-left: 32.5%;
+}
 #header {
   background-color: #1abc9c;
   height: 150px;
