@@ -4,6 +4,24 @@
   <title>TEAM</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link href="vanillaCalendar.css" rel="stylesheet">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+  </script>
+
+
+  <script type="text/javascript">
+    $(window).load(function(){
+
+$("#move").mouseenter(function() {
+
+  $(this).animate({
+    top: Math.random() * 300
+  }, 100);
+  $(this).animate({
+    left: Math.random() * 300
+  }, 100);
+});
+    });
+</script>
 </head>
 <body>
   <div id="header">
@@ -11,6 +29,7 @@
     <div class="trapezium-right"></div>
    <div class="container">
      <a id="header-title" href="index.html">SPRITZ FOXES PADOVA QUIDDITCH</a>
+     <img id="move" style="top: 20.9483px; left: 203.814px;" src="snitch.png">
      <img class="logo-small" src="logo-foxes-anello.png">
      <ul id="header-nav">
        <li><a href="team.html">TEAM</a></li>
