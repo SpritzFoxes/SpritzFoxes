@@ -168,3 +168,20 @@ a:hover {
 #footer p {
   color: white;
 }
+#move {
+width: 50px;
+height: 50px;
+text-align: center;
+position: relative;
+z-index: 999;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    display: none;
+  }
+* {
+  cursor: url(fox-tail.png) 55 30, auto;
+}
+body {
+      cursor: url(fox-tail.png) 55 30, auto;
+}
